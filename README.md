@@ -10,13 +10,13 @@ Rename file |`ren <old name> <new name>`|/?| `ren photos my_photos`
 
 ## Basic Navigation
 
-Description | Command | args | Example
---- | --- | ---
-Change current directory|`cd <destination>`| /?|
-Go to parent directory |`cd ..`||
-Go to user profile|`cd %userprofile%`||
+|Description | Command | args | Example|
+|--- | --- | ---|
+|Change current directory|`cd <destination>`| /?| |
+|Go to parent directory |`cd ..`| | |
+|Go to user profile|`cd %userprofile%`| | |
 
 ## User Input
-Description | Command | args | Example
---- | --- | ---
-Collect user input|`set /p <var name>=<prompt text>`||`set /p id="Enter ID: "`
+|Description | Command | args | Example|
+|--- | --- | ---|
+|Collect user input|`set /p <var name>=<prompt text>`||`set /p id="Enter ID: "`|
