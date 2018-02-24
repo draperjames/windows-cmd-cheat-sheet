@@ -18,8 +18,22 @@
 
 ## User Input
 
-| Description        | Command              | Example                             |
-| -------------      |:---                  |:---                                 |
-| Collect user input | `set /p <var name>=<prompt text>`| `set /p id="Enter ID: "`|
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+|Description | Command | args | Example|
+| :--- | :--- | :--- | :--- |
+| Collect user input | `set /p <var name>=<prompt text>`| `set /p id="Enter ID: "`|   |   |
+|    |   |  |
+
+## Running DLLs    
+
+|Description | Command | args | Example|
+| :--- | :--- | :--- | :--- |
+|Run classic credentials manager | `rundll32.exe keymgr.dll, KRShowKeyMgr`|  /? |   |
+
+
+## System
+
+|Description | Command | args | Example|
+| :--- | :--- | :--- | :--- |
+| Shutdown | `shutdown /s /t 0` |   |   |
+| Restart | `shutdown /r /t 0` |   |   |
+|    |    |    |
